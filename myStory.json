@@ -1,0 +1,64 @@
+{
+    "Title": "Dungeon story",
+    "Credits": "Welcome back to the real world :)<br><br>Created by Tien Le (ticale@ucsc.edu).",
+    "InitialLocation": "ThroneRoom",
+    "Locations": {
+        "ThroneRoom": {
+            "Body": "<br>You are in a room that, at one point in time, was on the cutting edge of royal fashion.<br><br>The interior still, at first glance, retains an impression of lavishness, though upon further examination one can see that various elements are missing or defaced, having had their gold finish scraped off or their various encrusted jewels pocketed.<br><br>Raised considerably on a platform near the back of the room, a resplendent throne stlil somehow sporting its scarlet lining commands attention as the focal point of the room.<br><br>A half-exposed portal sits behind the throne, with not even a flicker of magic peeking through the sheet draped over it.<br><br>",
+            "Choices": [
+                {
+                    "Text": "Approach the portal",
+                    "Target": "Portal"
+                },
+                {
+                    "Text": "Go through the door marked kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go through the door marked storage",
+                    "Target": "Storage"
+                },
+                {
+                    "Text": "Go through the door marked treasury",
+                    "Target": "Treasury"
+                }
+            ]
+        },
+    "Portal": {
+        "Body": "<br>yoho",
+        "Choices": [
+            {
+                "Text": "Walk away from the portal",
+                "Target": "ThroneRoom"
+            }
+        ]
+    },
+    "Kitchen" : {
+        "Body": "<br>An ancient kitchen, with every surface variably caked in soot and dust.<br><br>A large firepit sits in the middle of the room, previously the center of operations.<br><br>",
+        "Choices" : [
+            {
+                "Text": "Return to the throne room",
+                "Target": "ThroneRoom"
+            }
+        ]
+    },
+    "Storage" : {
+        "Body" : "<br>A cool room full of shelves, crates, and mysterious tarped objects.<br><br>",
+        "Choices" : [
+            {
+                "Text": "Return to the throne room",
+                "Target": "ThroneRoom"
+            }
+        ]
+    },
+    "Treasury" : {
+        "Body": "<br>Your torch fills the room with a warm glow.<br><br>This room must have once contained the old royals' power. There isn't much left now.<br><br>",
+        "Choices" : [
+            {
+                "Text": "Return to the throne room",
+                "Target": "ThroneRoom"
+            }
+        ]
+    }
+    }
+}
